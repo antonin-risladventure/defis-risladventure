@@ -20,7 +20,7 @@ h1{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;
 h1 span{display:block;color:var(--orange);font-size:.48em;letter-spacing:2.5px;margin-top:6px}
 .sync{display:inline-flex;align-items:center;gap:9px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:99px;padding:8px 14px;font-size:.85rem;font-weight:500}
 .sync i{width:9px;height:9px;border-radius:50%;background:var(--green);animation:pulse 2.2s ease-out infinite}
-.strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:-22px auto 20px;position:relative;max-width:1060px}
+.strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));max-width:620px;gap:12px;margin:-22px auto 20px;position:relative;max-width:1060px}
 .strip div{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--orange);border-radius:12px;padding:12px 14px;box-shadow:0 8px 24px rgba(13,40,51,.12);animation:up .6s cubic-bezier(.2,.7,.2,1) both}
 .strip div:nth-child(2){animation-delay:.08s}.strip div:nth-child(3){animation-delay:.16s}.strip div:nth-child(4){animation-delay:.24s}
 .strip b{display:block;font-family:Anton,Impact,sans-serif;font-weight:400;font-size:2rem;line-height:1;color:var(--navy);font-variant-numeric:tabular-nums}
@@ -85,7 +85,7 @@ footer .powered{color:var(--orange)}
 <div class="titles"><h1>Défi Strava <span>Risl'Adventure · saison 2026</span></h1>
 <div class="sync"><i></i>Synchronisé le 26 septembre 2026 à 17h20</div></div></div></header>
 <div class="wrap">
-<div class="strip"><div><b>77</b><span>membres du club Strava</span></div><div class="next"><b>Octobre</b><span>prochain défi, arrive bientôt</span><small>10 heures d&#39;activités cumulées · Temps total d&#39;activité</small></div><div class="podium"><span>Podium adhérents</span><ol><li><i>🥇</i><b>Hubert Goyer</b><em>65 pts</em></li><li><i>🥈</i><b>Gregory Renaud</b><em>55 pts</em></li><li><i>🥉</i><b>Maxime Jacob</b><em>54 pts</em></li></ol></div><div class="podium"><span>Podium open</span><ol><li><i>🥇</i><b>Hubert Goyer</b><em>63 pts</em></li><li><i>🥈</i><b>Gregory Renaud</b><em>55 pts</em></li><li><i>🥉</i><b>Kelly Potillion</b><em>51 pts</em></li></ol></div></div></div>
+<div class="strip"><div><b>77</b><span>membres du club Strava</span></div><div class="next"><b>Octobre</b><span>prochain défi, arrive bientôt</span><small>10 heures d&#39;activités cumulées · Temps total d&#39;activité</small></div></div></div>
 <div class="toolbar"><div class="tabs" role="tablist"><button role="tab" id="tab-adh" aria-selected="true" aria-controls="panel-adh">Adhérents</button><button role="tab" id="tab-open" aria-selected="false" aria-controls="panel-open">Open, tout le club</button></div>
 <label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16.5 16.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><input id="search" type="search" placeholder="Retrouver un prénom" autocomplete="off"></label></div>
 <p id="noresult" class="rules" hidden>Aucun nom ne correspond.</p>
